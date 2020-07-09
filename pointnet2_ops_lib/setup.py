@@ -12,7 +12,9 @@ _ext_sources = glob.glob(osp.join(_ext_src_root, "src", "*.cpp")) + glob.glob(
 )
 _ext_headers = glob.glob(osp.join(_ext_src_root, "include", "*"))
 
-requirements = ["torch>=1.4"]
+# This line causes inconsistency in the Anaconda environment, probably because
+# the requirement is too old
+# requirements = ["torch>=1.4"]
 
 exec(open(osp.join("pointnet2_ops", "_version.py")).read())
 
@@ -21,7 +23,7 @@ setup(
     name="pointnet2_ops",
     version=__version__,
     author="Erik Wijmans",
-    packages=find_packages(),
+    # packages=find_packages(),
     install_requires=requirements,
     ext_modules=[
         CUDAExtension(
