@@ -24,7 +24,7 @@ setup(
     version=__version__,
     author="Erik Wijmans",
     # packages=find_packages(),
-    install_requires=requirements,
+    # install_requires=requirements,
     ext_modules=[
         CUDAExtension(
             name="pointnet2_ops._ext",
