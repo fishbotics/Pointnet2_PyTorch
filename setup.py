@@ -7,7 +7,7 @@ requirements = [
     "pytorch-lightning>=0.7.1", 
     "numpy>=1.20.1",
     "msgpack-numpy>=0.4.7.1",
-    "lmdb>=1.1.1"
+    "lmdb>=1.1.1",
     "h5py>=3.2.1",
 ]
 
