@@ -2,7 +2,7 @@ import pytorch_lightning as pl
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from pointnet2_ops.pointnet2_modules import PointnetSAModule, PointnetSAModuleMSG
+from pointnet2_ops.ops.pointnet2_modules import PointnetSAModule, PointnetSAModuleMSG
 
 from pointnet2.models.pointnet2_ssg_cls import PointNet2ClassificationSSG
 
