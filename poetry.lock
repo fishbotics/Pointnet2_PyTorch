@@ -243,6 +243,14 @@ docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pytest-cov", "pytest-enabler", "pytest-black (>=0.3.7)", "pytest-mypy"]
 
 [[package]]
+name = "lmdb"
+version = "1.1.1"
+description = "Universal Python binding for the LMDB 'Lightning' Database"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "markdown"
 version = "3.3.4"
 description = "Python implementation of Markdown."
@@ -567,7 +575,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.1"
-content-hash = "f558929f2f50967c2f1169a18c0a68a9e5d1c63fffe720e02fad748afc973454"
+content-hash = "fec453ca912fef76b567a18ef4d924a2cf7970af68ae28c0c44176a60e62f92b"
 
 [metadata.files]
 absl-py = [
@@ -730,6 +738,31 @@ importlib-metadata = [
 importlib-resources = [
     {file = "importlib_resources-5.1.2-py3-none-any.whl", hash = "sha256:ebab3efe74d83b04d6bf5cd9a17f0c5c93e60fb60f30c90f56265fce4682a469"},
     {file = "importlib_resources-5.1.2.tar.gz", hash = "sha256:642586fc4740bd1cad7690f836b3321309402b20b332529f25617ff18e8e1370"},
+]
+lmdb = [
+    {file = "lmdb-1.1.1-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:a8b7ce34a717df6f00d6089e873d45015eee70b4cb68f238c70626c2a588f659"},
+    {file = "lmdb-1.1.1-cp27-cp27m-manylinux2010_x86_64.whl", hash = "sha256:94e0e4aedfdcb2b1c93acf5018a41b9e4f25b059afe820568475216014715fe2"},
+    {file = "lmdb-1.1.1-cp27-cp27m-win_amd64.whl", hash = "sha256:13070c5a11ad5926237f71ff811320e84a0a662ee521a4010f774dedefdf0fa9"},
+    {file = "lmdb-1.1.1-cp35-cp35m-macosx_10_14_x86_64.whl", hash = "sha256:c74788f4b6dc4383117716c2c5c1fd6766654ce0cf2e9e0baf8e6b4d8491c611"},
+    {file = "lmdb-1.1.1-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:329bf470e695b2f5992aaba43f3aedeb3905ab4f36ec13c28fca916294b54907"},
+    {file = "lmdb-1.1.1-cp35-cp35m-win_amd64.whl", hash = "sha256:793837ff38c1210fef7b9fb9b44799d5beab409b451322b02c8059cddc3b6334"},
+    {file = "lmdb-1.1.1-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:fa82eac04b2625e45b9a5e14086b1428f77485fc9e0b7e3e59918c8a28b1928c"},
+    {file = "lmdb-1.1.1-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:b6e87cf3613ba9ac063c6b27b5c76b4687e893d1db38e41ae038824e87849684"},
+    {file = "lmdb-1.1.1-cp36-cp36m-win_amd64.whl", hash = "sha256:666dd52f69fa5c1747e4c944448f32270178d29c974f72db42e5fb65a1707293"},
+    {file = "lmdb-1.1.1-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:6ddb6260d9e9f41c3a9a9a3b83af252cdd4f3e2d4116182e7f04fad38a33f82b"},
+    {file = "lmdb-1.1.1-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:cf07566bf6497fba224f56cc4f99b0ea5636dd163d540d9020e917b155f2235d"},
+    {file = "lmdb-1.1.1-cp37-cp37m-win_amd64.whl", hash = "sha256:45846011e833cf3ea25396a2ea019f80ce33b7b66f4ae22342205eb61ea7e514"},
+    {file = "lmdb-1.1.1-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:98d7e8be2a05fe3af0cf7074b0cefe4de82e81ec7665db0dc1c5cd891aefcfe9"},
+    {file = "lmdb-1.1.1-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:8c9e1dd1d03b8c2b0a826a841401416e0fa7925b77e4622aaef7a0492834f022"},
+    {file = "lmdb-1.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:f8ee147d5ef7648d1ab3d3ff1af5987b1d44f76a759b10c54872599f1e767b85"},
+    {file = "lmdb-1.1.1-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:f111c0d924d0ee919471335fb27cdc605749d09c5c46baa7d3a58142b733746a"},
+    {file = "lmdb-1.1.1-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:adf5da578fc7377fa36e9613e4883587c5382420a4f77d63ad78c34769722c19"},
+    {file = "lmdb-1.1.1-cp39-cp39-win_amd64.whl", hash = "sha256:e14b12a0994df68d76ac6665de6bdd04cef2d5816bdf3bd93a19dd5fc6bd1917"},
+    {file = "lmdb-1.1.1-pp27-pypy_73-macosx_10_7_x86_64.whl", hash = "sha256:d993ccc3142439be7231e70150e40ed59b9cd58517f35a280b8c84ab40bbc299"},
+    {file = "lmdb-1.1.1-pp27-pypy_73-win32.whl", hash = "sha256:699cfdbbc58d0042bbae551d162b09180155667eda129e4eb5cc0b683583826a"},
+    {file = "lmdb-1.1.1-pp36-pypy36_pp73-macosx_10_7_x86_64.whl", hash = "sha256:61bdb679c05a176c61090d6b72a05128b7c0263653cc2ada8719cdc5b3d28ac7"},
+    {file = "lmdb-1.1.1-pp36-pypy36_pp73-win32.whl", hash = "sha256:957db1ce4322916930732e9718081198fbd4d92d87d3215a12c2ccffbbe1160a"},
+    {file = "lmdb-1.1.1.tar.gz", hash = "sha256:165cd1669b29b16c2d5cc8902b90fede15a7ee475c54d466f1444877a3f511ac"},
 ]
 markdown = [
     {file = "Markdown-3.3.4-py3-none-any.whl", hash = "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"},
