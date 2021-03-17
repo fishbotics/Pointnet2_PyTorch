@@ -334,7 +334,7 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
-name = "pointnet_ops"
+name = "pointnet2_ops"
 version = "3.0.0"
 description = ""
 category = "main"
@@ -349,7 +349,7 @@ torch = "*"
 type = "git"
 url = "https://github.com/fishbotics/pointnet2_ops.git"
 reference = "main"
-resolved_reference = "b50e3343227c8c64de747c4470dad5cbb7f14106"
+resolved_reference = "efe284397330afb0dc90c04067e8585cb40edcda"
 
 [[package]]
 name = "protobuf"
@@ -599,7 +599,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.1"
-content-hash = "ca6f1e51ac1b4f4a919b840e66232d6c011e87e6f3c2d50765b3f2c6f7dd740b"
+content-hash = "be887a29ad74db2cd99f8e5ee47998e5ef62b212b8bdae880695a039138efdbf"
 
 [metadata.files]
 absl-py = [
@@ -934,7 +934,7 @@ pillow = [
     {file = "Pillow-8.1.2-pp37-pypy37_pp73-win32.whl", hash = "sha256:f36c3ff63d6fc509ce599a2f5b0d0732189eed653420e7294c039d342c6e204a"},
     {file = "Pillow-8.1.2.tar.gz", hash = "sha256:b07c660e014852d98a00a91adfbe25033898a9d90a8f39beb2437d22a203fc44"},
 ]
-pointnet_ops = []
+pointnet2_ops = []
 protobuf = [
     {file = "protobuf-3.15.6-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:1771ef20e88759c4d81db213e89b7a1fc53937968e12af6603c658ee4bcbfa38"},
     {file = "protobuf-3.15.6-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:1a66261a402d05c8ad8c1fde8631837307bf8d7e7740a4f3941fc3277c2e1528"},
